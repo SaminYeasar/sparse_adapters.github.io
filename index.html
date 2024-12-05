@@ -171,7 +171,7 @@ Neural Pathways</h1>
       <!-- Parameter efficiency -->
       <div class="column">
         <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
+          <h2 class="title is-3">Parameter efficiency</h2>
           <p>
             Our approach aims to **identify the important connections** among the neurons in a deep neural network that allows accomplishing a specific task.
           </p>
@@ -180,14 +180,13 @@ Neural Pathways</h1>
       </div>
       <!--/ Visual Effects. -->
 
-      <!-- Matting. -->
+      <!-- DAPD. -->
       <div class="column">
-        <h2 class="title is-3">Matting</h2>
+        <h2 class="title is-3">Sparse training</h2>
         <div class="columns is-centered">
           <div class="column content">
             <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
+              We introduce a novel algorithm, called Data Adaptive Pathway Discovery (DAPD), which leverages network sensitivity to adjust pathways in response to the data distribution shifts encountered in online RL.
             </p>
             <video id="matting-video" controls playsinline height="100%">
               <source src="./static/videos/matting.mp4"
